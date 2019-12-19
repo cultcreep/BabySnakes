@@ -1,6 +1,6 @@
-Character_name = "John"
-Character_age = "35"
-print("There once was a man named " + Character_name + ", ")
-print("He was " + Character_age + " years old. ")
-print("He really liked the name "+ Character_name +",")
-print("but he didn't like being " + Character_age +",  ")
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You Are " + age )
+feel = input ("How Are you? ")
+print("Thats Awesome! or maybe bad. Im not that smart of a program. But anyways,I Love You!")
