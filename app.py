@@ -1,6 +1,15 @@
-Character_name = "John"
-Character_age = "35"
-print("There once was a man named " + Character_name + ", ")
-print("He was " + Character_age + " years old. ")
-print("He really liked the name "+ Character_name +",")
-print("but he didn't like being " + Character_age +",  ")
+
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
+
+if op == "+":
+    print( num1 + num2 )
+elif op == "-":
+    print (num1 - num2)
+elif op == "/":
+    print (num1 / num2)
+elif op == "*":
+    print(num1 * num2)
+else:
+    print("Invalid operator entered")
